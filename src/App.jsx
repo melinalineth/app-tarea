@@ -1,9 +1,12 @@
-import Button from "./components/Button"
+import React from "react";
+import TaskList from "./components/TaskList";
 
-function App(){
-  return(
-    <Button funcion={()=>{}}>comprar</Button>
-  )
+function App() {
+  return (
+    <div className="App">
+      <TaskList title="Mis Tareas" />
+    </div>
+  );
 }
 
-export default App
+export default App;
